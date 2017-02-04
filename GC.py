@@ -1,6 +1,7 @@
 import re
 
 def GC(filename='rosalind_gc.txt'):
+    "Computing GC Content"
     with open(filename, 'r') as f:
         data = f.read().replace('\n', '')
 
